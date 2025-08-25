@@ -26,7 +26,22 @@ export default defineConfig({
                 text: 'Getting Started',
                 items: [
                     { text: '시작하기-환경설정', link: '/guide/getting-started' },
-                    { text: 'Runtime API Examples2', link: '/api-examples11' },
+                    { text: 'Vue.js 기본 문법', link: '/guide/fundamentals/template-syntax' },
+                ],
+            },
+            {
+                text: 'Routing',
+                items: [
+                    { text: 'Vue Router', link: '/guide/routing/vue-router' },
+                ],
+            },
+            {
+                text: '상태관리',
+                items: [
+                    { text: 'Vuex', link: '/guide/state/vuex/vuex-guide' },
+                    { text: 'Vuex Example', link: '/guide/state/vuex/vuex-example' },
+                    { text: 'Pinia', link: '/guide/state/pinia/pinia-guide' },
+                    { text: 'Pinia Example', link: '/guide/state/pinia/pinia-example' },
                 ],
             },
         ],
